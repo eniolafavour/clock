@@ -12,7 +12,7 @@ function displayTime() {
     let sRotation = 6*ss
     hour.style.transform = `rotate(${hRotation}deg)`
     minute.style.transform = `rotate(${mRotation}deg)`
-    second.style.transform = `rotate(${sRotation}deg)`
+    second.style.transform = `rotates(${sRotation}deg)`
 }
 
 setInterval(displayTime, 1000)
